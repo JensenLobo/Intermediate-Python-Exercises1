@@ -7,7 +7,7 @@ def sum():
             integer = int(input(f'Enter int #{counter}: '))
             total_sum += integer
             counter += 1
-        except ValueError:
+        except ValueError: # checks for anything else beside an integer
             print('Invalid input. Please enter an int.')
     print(f'Your sum is {total_sum}')
 
