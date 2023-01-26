@@ -1,7 +1,7 @@
-def count(string):
+def count(string): #has a parameter of a string
     letters = {}
-    for i in string.lower():
-            if i.isalpha():
+    for i in string.lower(): #converts all the characters into lowercase
+            if i.isalpha(): #checks to see if the character is an character and not a space or anything
                 if i in letters:
                     letters[i] += 1
                 else:
